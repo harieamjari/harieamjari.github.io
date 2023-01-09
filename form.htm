@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+</head>
+<body>
+<h1> Musician application form</h1>
+<form method="post" action="/submit" enctype="plain/text">
+<label for="fname">First name:</label>
+<input type="text" name="fname"><br>
+<label for="lname">Last name:</label>
+<input type="text" name="lname"><br>
+<label for="fskills">Skills:</label>
+<input type="text" name="fskilla"><br>
+
+<label> Gender: </label>
+<input type="radio" id="male" name="gender" value="Male">
+<label for="male"> Male </label>
+
+<input type="radio" id="female" name="gender" value="Female">
+<label for="female"> Female </label><br>
+
+<label for="faddress">Address </label>
+<input type="text" name="faddress"><br>
+
+<label for="instrument"> Instrument you play: </label>
+<select name="instrument" id="instruments">
+<option name="violin"> Violin </option>
+<option name="Viola"> Viola </option>
+<option name="cello"> Cello </option>
+<option name="flute"> Flute </option>
+<option name="snare"> Snare drum </option>
+<option name="recorder"> Recorder </option>
+<option name="timpani"> Timpani </option>
+<option name="cymbals"> Cymbals </option>
+<option name="horm"> French horn </option>
+<option name="piccolo"> Piccolo </option>
+<option name="tuba"> Tuba </option>
+<option name="trumpet"> Trumpet </option>
+<option name="trombone"> Trombone </option>
+<option name="bassoon"> Bassoon </option>
+<option name="clarinet"> Clarinet </option>
+</select><br>
+<label for="ffile"> Your performance </label>
+
+<input type="file" accept="audio/*" name="ffile"><br>
+<br>
+<label> Do you practice 48 Hours a day?</label>
+<input type="radio" id="yes" name="practice" value="Yes">
+<label for="yes"> Yes </label>
+
+<input type="radio" id="no" name="practice" value="No">
+<label for="no"> No </label><br>
+
+<input type="reset" value="RESET">
+<input type="submit" value="SUBMIT">
+</form>
+<br>
+<a href="index.htm">Back</a><br>
+<a href="index.htm#beet">Beethoven</a><br>
+<a href="index.htm#child">Children's marchia</a><br>
+</body>
+</html>
